@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>A Virtual Tour of East Fairchild</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
     <style>
       .graphic h1 {
@@ -9,9 +8,11 @@
       }
       .graphic h3 {
         font-family: 'Open Sans', sans-serif;
+        width: 140%;
+        margin-left: -20%;
       }
       .graphic {
-        width: 80%;
+        width: 70%;
         position: relative;
         margin: 0 auto;
       }
@@ -19,7 +20,26 @@
         margin-top: 0;
       }
       .graphic .pano {
-        height: 350px;
+        height: 400px;
+        width: 140%;
+        margin-left: -20%;
+      }
+      .post .graphic p {
+        max-width: 100%;
+      }
+
+      @media (max-width: 500px) {
+      .graphic {
+        width: 100%;
+      }
+      .graphic .pano {
+        width: 100%;
+        margin-left: 0%;
+      }
+      .graphic h3 {
+        width: 100%;
+        margin-left: 0%;
+      }
       }
     </style>
   </head>
